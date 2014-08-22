@@ -8,7 +8,7 @@
       "branch": "master"
     },
     "blog": {
-      "path": "/home/eslam/webapps/meteor-blog"
+      "git": "https://github.com/eahefnawy/meteor-blog.git"
     },
     "handlebars-server": {
       "git": "https://github.com/EventedMind/meteor-handlebars-server.git"
