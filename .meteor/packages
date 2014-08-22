@@ -4,8 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
-insecure
 iron-router
 coffeescript
 less
@@ -14,3 +12,6 @@ accounts-entry
 accounts-password
 handlebars-server
 minimongoid
+jquery
+npm
+blog

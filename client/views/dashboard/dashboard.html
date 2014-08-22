@@ -1,2 +1,26 @@
 <template name="dashboard">
+    <h1 class="text-center">Your Dashboard</h1>
+
+
+    <h2 class="text-center">Create New Blog</h2>
+    <form class="form-inline" id="create-blog-form" role="form">
+        <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">Blog Title</label>
+            <input type="text" class="form-control" id="create-blog-input" placeholder="Enter Blog Title">
+        </div>
+        <button type="submit" id="create-blog-button" class="btn btn-default">Create Blog</button>
+    </form>
+
+
+    <h2 class="text-center">Your Blogs</h2>
+    <div class="list-group">
+        {{#each blogs}} 
+
+            {{>blogTitle}} 
+
+        {{/each}}
+    </div>
+
+
+
 </template>
