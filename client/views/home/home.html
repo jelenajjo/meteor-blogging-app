@@ -1,6 +1,13 @@
 <template name="home">
 
+    <h1 class="text-center home-h1">Stefan <i class="fa fa-heart"></i> Jelena</h1>
+    <h1 class="text-center">The Fastest Blogging Platform on the Planet.</h1>
+    <h2 class="text-center">Made by the Cutest Couple on the Planet. ^^</h2>
+
     <div class="sign-container">
+    <a href="{{pathFor 'entrySignUp'}}"><button type="button" class="btn btn-primary btn-lg signing">Sign Up</button></a>
+    <a href="{{pathFor 'entrySignIn'}}"><button type="button" class="btn btn-primary btn-lg signing">Sign In</button></a>
+    <!--
         <div class="btn-group btn-group-justified">
             <div class="btn-group btn-group-lg">
                 <button type="button" class="btn btn-default"><a href="{{pathFor 'entrySignUp'}}">Sign Up</a></button>
@@ -9,5 +16,6 @@
                 <button type="button" class="btn btn-default"><a href="{{pathFor 'entrySignIn'}}">Sign In</a></button>
             </div>
         </div>
+        -->
     </div>
 </template>
