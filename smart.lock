@@ -10,7 +10,8 @@
         "branch": "master"
       },
       "blog": {
-        "path": "../meteor-blog"
+        "git": "https://github.com/eahefnawy/meteor-blog.git",
+        "branch": "master"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -31,7 +32,9 @@
         "commit": "3102c0641cab394ce4c3e54b655c85ec1610c092"
       },
       "blog": {
-        "path": "../meteor-blog"
+        "git": "https://github.com/eahefnawy/meteor-blog.git",
+        "branch": "master",
+        "commit": "853f9499f3feab11a44d675b903b0646437c1a2d"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
