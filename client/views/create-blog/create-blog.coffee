@@ -1,10 +1,10 @@
 Meteor.subscribe "Blogs"
 
-Template.dashboard.helpers
+Template.create-blog.helpers
 	blogs: ()->
 		return Blogs.find()
 
-Template.dashboard.events
+Template.create-blog.events
 	"submit #create-blog-form": (e)->
 		e.preventDefault()
 		blogTitle = $('#create-blog-input').val()

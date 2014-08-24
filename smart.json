@@ -4,11 +4,12 @@
       "version": "0.8.2"
     },
     "accounts-entry": {
-      "git": "https://github.com/Differential/accounts-entry.git",
+      "git": "https://github.com/eahefnawy/accounts-entry.git",
       "branch": "master"
     },
     "blog": {
-      "git": "https://github.com/eahefnawy/meteor-blog.git"
+      "git": "https://github.com/eahefnawy/meteor-blog.git",
+      "branch": "master"
     },
     "handlebars-server": {
       "git": "https://github.com/EventedMind/meteor-handlebars-server.git"

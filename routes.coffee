@@ -2,8 +2,8 @@ Router.map ->
   @route 'home',
     path: '/'
 
-  @route 'dashboard',
-    path: '/dashboard'
+  @route 'create-blog',
+    path: '/create-blog'
 
   @route 'notFound',
     path: '*'
