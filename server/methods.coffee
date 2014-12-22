@@ -1,7 +1,4 @@
-hostile = Meteor.require 'hostile'
-
-
-
+hostile = Meteor.npmRequire 'hostile'
 
 Meteor.methods
 	createBlog: (blogTitle)->

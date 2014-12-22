@@ -3,15 +3,16 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-standard-app-packages
-iron-router
+iron:router
 coffeescript
 less
 accounts-ui
-accounts-entry
 accounts-password
-handlebars-server
-minimongoid
 jquery
-npm
-blog
+mrt:minimongoid
+joshowens:accounts-entry
+meteorhacks:npm
+
+
+npm-container
+meteor-platform

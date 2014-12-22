@@ -1,13 +1,6 @@
-Router.map ->
-  @route 'home',
-    path: '/'
+Router.route '/', ->
+  this.render('home')
 
-  @route 'create-blog',
-    path: '/create-blog'
-
-  @route 'notFound',
-    path: '*'
-    where: 'server'
-    action: ->
-      @response.statusCode = 404
-      @response.end Handlebars.templates['404']()
+Router.route '/create-blog',
+  name: 'create-blog'
+  template: 'createBlog'
